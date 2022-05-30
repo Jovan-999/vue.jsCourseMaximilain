@@ -5,10 +5,10 @@
     @close="confirmError"
   >
     <template #default>
-      <p>Unfortunately, at least one input value is Invalid.</p>
+      <p>Unfortunately, at least one input value is invalid</p>
       <p>
         Please check all inputs and make sure you enter at least a few
-        charachters into each input field
+        characters into each input field.
       </p>
     </template>
     <template #actions>
@@ -32,7 +32,7 @@
       </div>
       <div class="form-control">
         <label for="link">Link</label>
-        <input id="link" name="link" type="utl" ref="linkInput" />
+        <input id="link" name="link" type="url" ref="linkInput" />
       </div>
       <div>
         <base-button type="submit">Add Resource</base-button>
