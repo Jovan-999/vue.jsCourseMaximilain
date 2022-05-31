@@ -14,6 +14,10 @@
   <keep-alive>
     <component :is="selectedTab"></component>
   </keep-alive>
+  <!-- <add-resource v-if="this.selectedTab === 'add-resource'"></add-resource>
+  <stored-resources
+    v-if="this.selectedTab === 'stored-resources'"
+  ></stored-resources> -->
 </template>
 
 <script>
