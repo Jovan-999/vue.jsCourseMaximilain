@@ -100,6 +100,10 @@
     </div>
     <div class="form-control">
       <rating-control v-model="rating"></rating-control>
+      <!-- <rating-control
+        v-on:change="handleOnReportChange"
+        :value="rating"
+      ></rating-control> -->
     </div>
     <div class="form-control">
       <input
