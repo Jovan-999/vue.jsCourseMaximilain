@@ -51,6 +51,7 @@ export default {
           }
         })
         .then((data) => {
+          console.log(data);
           this.isLoading = false;
           const results = [];
           for (const id in data) {
