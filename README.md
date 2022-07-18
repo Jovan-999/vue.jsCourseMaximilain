@@ -1,4 +1,4 @@
-# vue.jsCourseMaximilain
+# vue.jsCourseMaximilian
 
 * SECTION 1 = GETTING STARTED
 * SECTION 2 = BASICS & CORE CONCEPTS - DOM INTERACTION WITH VUE
